@@ -1,7 +1,7 @@
 # Tp-Chona
 
 ## Integrantes:
-- Enzo VM, 
+- Enzo VM
 - Facundo S
 
 ## Link al etherscan
