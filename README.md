@@ -1,5 +1,5 @@
 # Tp-Chona
 
 Integrantes:
--Enzo VM
--Facundo S
+Enzo VM, 
+Facundo S
