@@ -5,7 +5,7 @@
 - Facundo S
 
 ## Link al etherscan
-- Link: 
+- Link: https://rinkeby.etherscan.io/address/0x55ec0de6e9a7554775a754de9e9834298e138e77
 
 ## Ej extra 
 1. asd
