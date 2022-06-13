@@ -29,7 +29,7 @@ contract Estudiante
     //Devuelve el nombre y el apellido del estudiante como string
     function nombre_completo() public view returns(string memory)
     {
-        return string(abi.encodePacked(_nombre, " " , _apellido));
+        return string(abi.encodePacked(_nombre, " " , _apellido)); //Forma "optimizada" de juntar dos strings
     }
 
     //Devuelve el curso del alumno como string.
@@ -65,8 +65,8 @@ contract Estudiante
     function aprobo(string memory materia) public view returns(bool)
     {
         //Aca le dice que si la nota de la materia es mayor a 60, es decir un 6+ 
-        //que le devuleva true ya que es una estructura booleana.
-        require (notas_materias[materia] >= 60); 
+        //que le devuleva true ya que es una estructura booleana, si no lo es desaprobo.
+        require (notas_materias[materia] >= 60, desaprobaste); 
         return true;
         
     }
