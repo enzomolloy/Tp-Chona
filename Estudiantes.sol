@@ -66,7 +66,7 @@ contract Estudiante
     {
         //Aca le dice que si la nota de la materia es mayor a 60, es decir un 6+ 
         //que le devuleva true ya que es una estructura booleana, si no lo es desaprobo.
-        require (notas_materias[materia] >= 60, desaprobaste); 
+        require (notas_materias[materia] >= 60, "desaprobaste"); 
         return true;
         
     }
